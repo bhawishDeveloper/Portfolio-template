@@ -1,2 +1,0 @@
-# bhao
-portfolio
