@@ -1344,17 +1344,20 @@ h3 {
 
 /* line 21, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
+  margin-top: -20px;
   color: #FFF;
   font-family: "Alata", sans-serif;
-  font-size: 50px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 62px;
 }
 
+  
+
 @media (max-width: 767px) {
   /* line 21, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 25px;
+    font-size: 15px;
     line-height: 35px;
   }
 }
@@ -1362,7 +1365,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 21, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 35px;
   }
 }
@@ -1370,7 +1373,7 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 21, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 45px;
+    font-size: 25px;
     letter-spacing: 3px;
     line-height: 55px;
   }
@@ -1401,6 +1404,35 @@ h3 {
     font-size: 16px;
   }
 }
+
+
+/*For auto text effects*/
+.slider_area .single_slider .slider_text p {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #0181F5;
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin-bottom: 22px;
+  font-family: "Alata", sans-serif;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 44, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 44, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text p {
+    font-size: 16px;
+  }
+}
+
 
 /* line 64, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_slider.scss */
 .outline_text {
